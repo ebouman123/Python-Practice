@@ -23,4 +23,19 @@ print("After", smallest)
 for letter in "Banana":
     print(letter)
     
-    
+# Slicing strings
+
+s = "Monty Python"
+# M o n t y   P y t h o  n
+# 0 1 2 3 4 5 6 7 8 9 10 11
+print(s[0:4])  # Prints "Mont"
+print(s[6:7])  # Prints "P"
+print(s[6:20]) # Prints "Python"
+print(s[:2])   # Prints "Mo"
+print(s[8:])   # Prints "thon"
+print(s[:])    # Prints "Monty Python"
+
+
+# String Concatenation
+
+a = "Hello"
