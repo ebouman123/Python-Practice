@@ -39,3 +39,7 @@ print(s[:])    # Prints "Monty Python"
 # String Concatenation
 
 a = "Hello"
+b = a + "There"
+print(b) # Prints "HelloThere"
+c = a + " " + "There"
+print(c) # Prints "Hello There"
